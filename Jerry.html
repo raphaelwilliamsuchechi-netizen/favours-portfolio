@@ -1,0 +1,123 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PORTFOLIO</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Jerry.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="logo" href="#">FAVOUR<span></span></a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="menu">☰</button>
+      <ul id="menu" class="menu">
+        <li><a href="#about">Home</a></li>
+        <li><a href="http://127.0.0.1:5500/PARAMOUNT%20STUDIO/Projects.html" target="_blank">Projects</a></li>
+        <li><a href="http://127.0.0.1:5500/PARAMOUNT%20STUDIO/skills.html" target="_blank">Skills</a></li>
+        <li><a class="btn" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section class="hero container flip" aria-label="Intro">
+      <div class="hero-text">
+        <h1>Hello, I am<span>FAVOUR RAPHAEL</span></h1>
+        <p>I create delightful websites for your business oriented needs,a healthy organisational desigin that can be interactive.</p>
+        <div class="hero-actions">
+          <a class="btn" href="#projects">View Work</a>
+          <a class="btn btn-ghost" href="#contact">Hire Me</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="card-3d"></div>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section id="about" class="section container flip">
+      <h2 class="section-title">About</h2>
+      <div class="grid two">
+        <p>
+          I am a frontend developer with a love for clean design systems, micro-interactions, and
+          performance. I turn complex problems into elegant, scalable interfaces while giving you a dependable website design.
+        </p>
+        <p>
+          Away from web design and developments,i enjoy reading,cooking and creating recipes <br>,writing article and poetry and finding means to merge them into tech
+        </p>
+      </div>
+    </section>
+
+    <section id="projects" class="section container">
+      <h2 class="section-title flip">Projects</h2>
+      <div class="projects-grid">
+        <article class="project-card flip">
+          <div class="project-media"></div>
+          <div class="project-body">
+            <h3>Dashboard Pro</h3>
+            <p>Analytics dashboard with lazy‑loaded charts and theme switching.</p>
+            <a class="link" href="#" aria-label="Open Dashboard Pro">Live Demo →</a>
+          </div>
+        </article>
+
+        <article class="project-card flip">
+          <div class="project-media alt"></div>
+          <div class="project-body">
+            <h3>Shop Lite</h3>
+            <p>Headless e‑commerce storefront with instant search and filters.</p>
+            <a class="link" href="#" aria-label="Open Shop Lite">Live Demo →</a>
+          </div>
+        </article>
+
+        <article class="project-card flip">
+          <div class="project-media grad"></div>
+          <div class="project-body">
+            <h3>Portfolio X</h3>
+            <p>SSG portfolio with image optimization and smooth page transitions.</p>
+            <a class="link" href="#" aria-label="Open Portfolio X">Live Demo →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section container flip">
+      <h2 class="section-title">Skills</h2>
+      <ul class="skills">
+        <li>HTML5</li><li>CSS3</li><li>JavaScript (ES202x)</li>
+        <li>React</li><li>Accessibility (a11y)</li><li>Performance</li>
+        <li>Node/Express</li><li>Figma → Code</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="section container flip">
+      <h2 class="section-title">Contact</h2>
+      <form class="contact-form" action="#" method="post">
+        <div class="grid two">
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" placeholder="Your Name" required />
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email"placeholder="raphaelfavour46@gmail.com"required/>
+          </label>
+        </div>
+          <label>
+            <span>Message</span>
+            <textarea name="Message"rows="5" placeholder="TELL ME ABOUT YOUR PROJECT......"></textarea>
+          </label>
+          <button class="btn"type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+        <p>©2025 MyCompany. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="Jerry.js"></script>
+</body>
+</html>
+    
